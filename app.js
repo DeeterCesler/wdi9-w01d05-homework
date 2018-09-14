@@ -45,3 +45,13 @@
             console.log(a < b < c);
             console.log(a < a < d);
             console.log(48 == '48');
+    // D. 
+        const animal = "cow";
+        const moo = (input) => {
+            if(input === animal){
+                console.log("mooooo")
+            }
+            else {
+                console.log("Hey! You're not a cow.")
+            }
+        }
