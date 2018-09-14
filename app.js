@@ -15,16 +15,33 @@
         // What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
             // roughly 75% of time planning, 25% of time typing
 
-// 2. Strings
+    // B. Strings
 
-    // 1.  
-        let firstVariable = "Hello World";
-        firstVariable = 36;
-        let secondVariable = firstVariable;
-        secondVariable = "Any string lmao";
-        // firstVariable should be 36
+        // 1.  
+            let firstVariable = "Hello World";
+            firstVariable = 36;
+            let secondVariable = firstVariable;
+            secondVariable = "Any string lmao";
+            // firstVariable should be 36
 
-    // 2.
-        const yourName = "Deeter";
-        console.log(`Hello, my name is ${yourName}.`);
-        // return `Hello, my name is ${yourName}.`;
+        // 2.
+            const yourName = "Deeter";
+            console.log(`Hello, my name is ${yourName}.`);
+    // C.
+        // 1. Booleans
+            const a = 4;
+            const b = 53;
+            const c = 57;
+            const d = 16;
+            const e = 'Kevin';
+
+            console.log(a < b);
+            console.log(c > d);
+            console.log('Name' === 'Name');
+            console.log(true !== false);
+            console.log(false !== false !== false !== false !== false !== false !== true);
+            console.log(false === false)
+            console.log(e === 'Kevin');
+            console.log(a < b < c);
+            console.log(a < a < d);
+            console.log(48 == '48');
