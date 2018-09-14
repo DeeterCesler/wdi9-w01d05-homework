@@ -124,3 +124,13 @@
         ourClass[2];
         ourClass[4] = "Octocat";
         ourClass.push("Cloud City");
+    // E. Mix it up
+        const myArray = [5, 10, 500, 20];
+        myArray.push("Egon");
+        myArray.push("Another");
+        myArray.shift();
+        myArray.unshift("Bob Marley");
+        myArray.pop();
+        myArray.reverse();
+        // Yes, we mutated it. It affected the values of the array. It returns the reversed array.
+        
