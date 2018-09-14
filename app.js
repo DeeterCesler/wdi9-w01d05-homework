@@ -114,3 +114,8 @@
         // a real-life thing could be a product listing, a set of buttons or input fields
     // B. Easy Does It
         const quotes = ["Four score and seven year", "Ask not what your country can do for you","Build a wall"];
+    // C. Accessing Elements
+        const randomThings = [1, 10, "Hello", true];
+        randomThings[0];
+        randomThings[2] = "World";
+        console.log(randomThings);
