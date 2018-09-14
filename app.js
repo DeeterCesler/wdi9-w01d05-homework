@@ -105,3 +105,5 @@
                         sum += (i*2);
                     }
                     console.log(sum);
+        // E. Multiples of 3 and 5
+                // I've already done this problem
