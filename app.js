@@ -107,3 +107,10 @@
                     console.log(sum);
         // E. Multiples of 3 and 5
                 // I've already done this problem
+// III. Arrays & Control Flow
+    // A. Talk About it
+        // The things in an array are index values
+        // No, no guarantee an array will be ordered
+        // a real-life thing could be a product listing, a set of buttons or input fields
+    // B. Easy Does It
+        const quotes = ["Four score and seven year", "Ask not what your country can do for you","Build a wall"];
