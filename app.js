@@ -92,3 +92,16 @@
                         console.log(`I found a ${i}. Three is a crowd`)
                     }
                 }
+        // D. Savings account
+                // 1.
+                    let sum = 0;
+                    for(let i=1; i<=10; i++){
+                        sum += i;
+                    }
+                    console.log(sum);
+                // 2. 
+                    sum = 0;
+                    for(let i=1; i<=100; i++){
+                        sum += (i*2);
+                    }
+                    console.log(sum);
