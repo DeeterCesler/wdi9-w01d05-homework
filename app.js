@@ -1,5 +1,3 @@
-console.log("it's live")
-
 // 1. Variable & Datatypes
     // A. Q + A
         // How do we assign a value to a variable?
@@ -17,3 +15,16 @@ console.log("it's live")
         // What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
             // roughly 75% of time planning, 25% of time typing
 
+// 2. Strings
+
+    // 1.  
+        let firstVariable = "Hello World";
+        firstVariable = 36;
+        let secondVariable = firstVariable;
+        secondVariable = "Any string lmao";
+        // firstVariable should be 36
+
+    // 2.
+        const yourName = "Deeter";
+        console.log(`Hello, my name is ${yourName}.`);
+        // return `Hello, my name is ${yourName}.`;
