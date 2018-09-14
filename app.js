@@ -64,49 +64,49 @@
             console.log("Sorry, you're too young.")
         }
 // II.
-        // A.
-            // 1.  
-                for(let i=0; i<=10; i++){
-                    console.log(i)
-                };
-            // 2.
-                for(let i=10; i<=400; i++){
-                    console.log(i)
-                };
-            // 3,
-                for(let i=12; i<=4000; i+=3){
-                    console.log(i)
-                };
-        // B. Get Even
-                for(let i=1 ; i<=100; i++){
-                    if(i%2===0){
-                        console.log(`${i} <-- is an even number`)
-                    }
+    // A.
+        // 1.  
+            for(let i=0; i<=10; i++){
+                console.log(i)
+            };
+        // 2.
+            for(let i=10; i<=400; i++){
+                console.log(i)
+            };
+        // 3,
+            for(let i=12; i<=4000; i+=3){
+                console.log(i)
+            };
+    // B. Get Even
+            for(let i=1 ; i<=100; i++){
+                if(i%2===0){
+                    console.log(`${i} <-- is an even number`)
                 }
-        // C. Give me Five
-                for(let i=0; i<=100; i++){
-                    if(i%5===0){
-                        console.log(`I found a ${i}. High five!`)
-                    }
-                    if(i%3===0){
-                        console.log(`I found a ${i}. Three is a crowd`)
-                    }
+            }
+    // C. Give me Five
+            for(let i=0; i<=100; i++){
+                if(i%5===0){
+                    console.log(`I found a ${i}. High five!`)
                 }
-        // D. Savings account
-                // 1.
-                    let sum = 0;
-                    for(let i=1; i<=10; i++){
-                        sum += i;
-                    }
-                    console.log(sum);
-                // 2. 
-                    sum = 0;
-                    for(let i=1; i<=100; i++){
-                        sum += (i*2);
-                    }
-                    console.log(sum);
-        // E. Multiples of 3 and 5
-                // I've already done this problem
+                if(i%3===0){
+                    console.log(`I found a ${i}. Three is a crowd`)
+                }
+            }
+    // D. Savings account
+            // 1.
+                let sum = 0;
+                for(let i=1; i<=10; i++){
+                    sum += i;
+                }
+                console.log(sum);
+            // 2. 
+                sum = 0;
+                for(let i=1; i<=100; i++){
+                    sum += (i*2);
+                }
+                console.log(sum);
+    // E. Multiples of 3 and 5
+            // I've already done this problem
 // III. Arrays & Control Flow
     // A. Talk About it
         // The things in an array are index values
@@ -133,4 +133,11 @@
         myArray.pop();
         myArray.reverse();
         // Yes, we mutated it. It affected the values of the array. It returns the reversed array.
-        
+    // F. Biggie Smalls
+        const int = 5;
+        if (int >= 100) {
+            console.log("big number")
+        }
+        else {
+            console.log("little number")
+        };
