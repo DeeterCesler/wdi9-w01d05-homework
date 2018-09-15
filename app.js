@@ -240,4 +240,13 @@
             }
             return bigNum
         };
-        
+    // H. printLongestWord
+        const printLongestWord = (arr) => {
+            let longWord = "";
+            for(let i=0; i<arr.length; i++){
+                if(arr[i].length > longWord.length){
+                    longWord = arr[i];
+                }
+            }
+            return longWord;
+        }
