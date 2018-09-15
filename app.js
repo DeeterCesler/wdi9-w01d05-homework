@@ -221,3 +221,12 @@
             array.push(str2.length);
             console.log(array);
         };
+    // F. getMultipleLengths
+        const getMultipleLengths = (arr) => {
+            const array = [];
+            for(let i=0; i<arr.length; i++){
+                array.push(arr[i].length)
+            }
+            console.log(array);
+        };
+        
