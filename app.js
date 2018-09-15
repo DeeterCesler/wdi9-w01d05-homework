@@ -312,3 +312,11 @@
                 const max = arr.length - 1;
                 return arr[Math.floor(Math.random()*(max+1))];
             }
+// Objects
+    // A.
+        const user = {
+            name: "john",
+            email: "john@thebomb.com",
+            age: 28,
+            purchased: []
+        };
