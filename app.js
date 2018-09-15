@@ -249,4 +249,13 @@
                 }
             }
             return longWord;
-        }
+        };
+    // I. transmogrify
+        const transmogrify = (num1, num2, num3) => {
+            const figureOne = (num1*num2);
+            let incrementor = figureOne;
+            for(let i=0; i<(num3-1); i++){
+                incrementor *= figureOne;
+            }
+            return incrementor;
+        };
