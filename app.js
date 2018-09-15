@@ -325,3 +325,8 @@
         user.age++;
     // C. 
         user["location"] = "New York";
+    // D.
+        user.purchased.push("carbohydrates");
+        user.purchased.push("peace of mind");
+        user.purchased.push("Merino jodhpurs");
+        console.log(user.purchased[2]);
