@@ -214,4 +214,10 @@
             }
             else return false;
         };
-        
+    // E. getTwoLengths
+        const getTwoLengths = (str1, str2) => {
+            const array = [];
+            array.push(str1.length);
+            array.push(str2.length);
+            console.log(array);
+        };
