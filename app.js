@@ -323,3 +323,5 @@
     // B.
         user.email = "john@yourmom.com";
         user.age++;
+    // C. 
+        user["location"] = "New York";
