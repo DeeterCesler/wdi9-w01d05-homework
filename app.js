@@ -197,8 +197,12 @@
         const printGreeting = (name) => {
             return `Hey there, ${name}!`;
         };
-    // B. 
-    const printCool = (name) => {
-        console.log(`${name} is cool.`)
-    };
-    // Isn't this the same as the last problem? I think the order might've been mixed.
+    // B. printCool
+        const printCool = (name) => {
+            console.log(`${name} is cool.`)
+        };
+        // Isn't this the same as the last problem? I think the order might've been mixed.
+    // C. calculateCube
+        const calculateCube = (num) => {
+            console.log(num*num*num);
+        }
