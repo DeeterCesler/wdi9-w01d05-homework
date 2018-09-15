@@ -229,4 +229,15 @@
             }
             console.log(array);
         };
+    // G. maxOfThree
+        const maxOfThree = (num1, num2, num3) => {
+            let bigNum = num1;
+            if(num2 > bigNum){
+                bigNum = num2;
+            }
+            if(num3 > bigNum){
+                bigNum = num3;
+            }
+            return bigNum
+        };
         
