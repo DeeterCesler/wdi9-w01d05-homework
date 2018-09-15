@@ -320,3 +320,6 @@
             age: 28,
             purchased: []
         };
+    // B.
+        user.email = "john@yourmom.com";
+        user.age++;
