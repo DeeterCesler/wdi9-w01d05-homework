@@ -192,3 +192,8 @@
         thomsCloset[2][2];
         console.log(`Thom finna slay with his ${thomsCloset[0][0]}, ${thomsCloset[1][1]}, and his ${thomsCloset[2][2]}.`);
         thomsCloset[1][2] = "Footie Pajamas";
+// IV.
+    // A. printGreeting
+        const printGreeting = (name) => {
+            return `Hey there, ${name}!`;
+        }
