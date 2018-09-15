@@ -259,3 +259,28 @@
             }
             return incrementor;
         };
+    // J. reverseWordOrder v2
+        const reverseWordOrder = (str) => {
+            console.log(str);
+            let reverseString = "";
+            let wordHolder = "";
+            for(let i=0; i<str.length; i++){
+                wordHolder = wordHolder + str[i];
+                if(i===str.length-1){
+                    reverseString = wordHolder + " " + reverseString;
+                }
+                if(str[i]===" "){
+                    reverseString = wordHolder + reverseString;
+                    wordHolder = "";
+                }
+            }
+            // I could've been done here, but I got too annoyed 
+            // that there was an extra space at the end of the new string. 
+            // So I made another loop to solve it.
+            let finalString = "";
+            for(let i=0; i<reverseString.length-1;i++){
+                finalString = finalString + reverseString[i];
+            }
+            return finalString;
+        }
+        
