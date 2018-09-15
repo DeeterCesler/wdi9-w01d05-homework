@@ -283,4 +283,32 @@
             }
             return finalString;
         }
-        
+    // K.
+        // 1.
+            const oneAndTen = () => {
+                return (Math.ceil(Math.random()*10));
+            }
+        // 2.
+            const tenAndHundred = () => {
+                return Math.floor(Math.random()*(100-10+1)+10);
+            }
+        // 3.
+            const bigAndBigger = () => {
+                return Math.random()*(13267-532+1)+532;
+            }
+        // 4.
+            const randInt = () => {
+                let testCase = Math.random()*10;
+                while(testCase < 1){
+                    testCase = Math.random()*10;
+                }
+                return testCase;
+            }
+        // 5.
+            quotes.push("Mission accomplished");
+            quotes.push("I did not inhale");
+            quotes.push("Speak softly and carry a big stick");
+            const returnQuote = (arr) => {
+                const max = arr.length - 1;
+                return arr[Math.floor(Math.random()*(max+1))];
+            }
