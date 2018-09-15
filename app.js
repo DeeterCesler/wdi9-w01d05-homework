@@ -205,4 +205,13 @@
     // C. calculateCube
         const calculateCube = (num) => {
             console.log(num*num*num);
-        }
+        };
+    // D. isVowel
+        const isVowel = (char) => {
+            const newChar = char.toLowerCase();
+            if(newChar === "a" || newChar === "e" || newChar === "i" || newChar === "o" || newChar === "u" || newChar === "y"){
+                return true
+            }
+            else return false;
+        };
+        
